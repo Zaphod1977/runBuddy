@@ -1,28 +1,31 @@
-* {
+*   {
     margin top: 30px;   
     padding: 2px;
     box-sizing: border-box;
     text-align: center;
-    
+    }
+    header {
+        background-color: aliceblue;
     }
     body {
       /* more on this crazy alphanumerical value in a minute! */
       color: #000000;
       font-family: Helvetica, Arial, sans-serif;
+      background-color: aliceblue;
     }
 
-.title {
+    .title {
     text-align: center;
     font-style: bold;
     font: times;
     font-size: 50px;
     padding: 10;
-}  
-.semi {
+    }  
+    .semi {
     font-weight: bold;
     font-size: 18px;
     color: #3890fc;
     margin: 0;
     display: inline;
     padding: 10px;
-}
+    }
