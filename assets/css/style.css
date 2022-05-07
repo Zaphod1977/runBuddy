@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   }
-
   body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -13,6 +12,7 @@
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    position: sticky;  
   }
   header h1 {
     font-weight: bold;
@@ -75,9 +75,6 @@
  /* what we do section */
   .intro {
     text-align: center;
-  }
-  .intro h2 {
-    
   }
   .intro p {
     line-height: 1.7;
