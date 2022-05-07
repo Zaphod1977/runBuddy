@@ -13,6 +13,8 @@
     padding: 20px 35px;
     background-color: #39a6b2;
     position: sticky;  
+    top: 0px;
+    z-index: 10;
   }
   header h1 {
     font-weight: bold;
@@ -87,9 +89,6 @@
   .steps {
     text-align: center;
     background: #fce138;
-  }
-  .steps h2 {
-    
   }
   .steps div {
     margin-bottom: 80px;
